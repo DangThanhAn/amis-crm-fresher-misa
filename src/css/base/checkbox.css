@@ -1,0 +1,33 @@
+.checkbox {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.checkbox:hover {
+    border-color: #2b4eee;
+    background-color: #fff;
+}
+
+.checkbox__list {
+    height: 32px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.checkbox__item {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 32px;
+}
+
+.checkbox__list label {
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 8px;
+}
+
+label {
+    padding-top: 1.5px;
+}

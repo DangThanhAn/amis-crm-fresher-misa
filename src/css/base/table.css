@@ -1,0 +1,193 @@
+.table-all {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 56px;
+    overflow: auto;
+    /* display: none; */
+}
+
+.table-all thead th:first-child,
+.table-all tbody td:first-child {
+    padding: 0;
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+    border: none;
+}
+
+.table-all thead th:nth-child(2),
+.table-all tbody tr td:nth-child(2) {
+    position: sticky;
+    left: 36px;
+    background-color: #fff;
+    padding: 0 0 0 12px;
+    border: none;
+}
+
+.table-all thead th:first-child,
+.table-all thead th:nth-child(2) {
+    background-color: #f0f2f4;
+    z-index: 10;
+}
+
+.table-all tr:hover td:first-child,
+.table-all tr:hover td:nth-child(2) {
+    background-color: #f0f2f4;
+}
+
+.table {
+    width: 3040px;
+    border-spacing: unset;
+    border: unset;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.icon-search-grid {
+    display: none;
+    box-sizing: border-box;
+    position: absolute !important;
+    top: 9px;
+    padding: 3px;
+    width: 22px;
+    height: 22px;
+    z-index: 1000;
+    border-radius: 50%;
+}
+
+.icon-search-grid::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://crmplatform.misacdn.net/app/assets/Images/icon/icon_collection_v2.svg) no-repeat 0 -505px;
+    box-sizing: border-box;
+}
+
+.icon-search-grid:hover {
+    background-color: #d3d7de !important;
+}
+
+.right-6 {
+    right: 6px;
+}
+
+.table thead {
+    background-color: #f9f9f9;
+    top: 0;
+    z-index: 100;
+}
+
+
+/* .table thead tr {
+    background-color: rgb(240 242 244);
+} */
+
+.table thead tr th {
+    box-sizing: border-box;
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    background-color: rgb(240 242 244);
+    z-index: 1;
+    padding-left: 16px !important;
+    padding-right: 32px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* border-left: 1px solid rgb(240 242 244); */
+    /* border-right: 1px solid rgb(240 242 244); */
+    /* border-bottom: 0.5px solid #D3D7DE; */
+}
+
+
+/* .table thead tr th:hover {
+    box-sizing: border-box;
+    border-right: 1px solid #d3d7de!important;
+    border-left: 1px solid #d3d7de!important;
+} */
+
+.table thead tr th:hover .icon-search-grid {
+    display: block;
+    box-sizing: border-box;
+}
+
+.table tbody tr td {
+    box-sizing: border-box;
+    padding-left: 16px !important;
+    padding-right: 32px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table .text--blue {
+    color: rgb(19, 59, 236);
+}
+
+.text--icon {
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+}
+
+.table tr {
+    box-sizing: border-box;
+    height: 40px;
+    border-bottom: 0.5px solid #D3D7DE;
+    cursor: pointer;
+}
+
+.table__checkbox {
+    padding-left: 16px;
+    padding-right: 10px;
+}
+
+.other-row-selected {
+    background-color: #E7EBFD;
+}
+
+.table tbody tr:hover {
+    background-color: rgb(240 242 244);
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+table tr.row--selected {
+    background-color: #dedede;
+}
+
+.m-table thead {
+    position: sticky;
+}
+
+.parent__td--icon {
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px #1f222929;
+}
+
+.parent__td--icon:hover {
+    background-color: #d3d7de;
+}
+
+.icon--col1 {
+    margin-left: 12px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table tbody tr:hover .icon--pen {
+    display: flex;
+}
